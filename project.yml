@@ -1,0 +1,14 @@
+name: PlackoApp
+options:
+  bundleIdPrefix: com.example
+targets:
+  PlackoApp:
+    type: application
+    platform: iOS
+    sources: [PlackoApp]
+    info:
+      path: PlackoApp/Info.plist
+      properties:
+        CFBundleShortVersionString: "1.0"
+        CFBundleVersion: "1"
+        UILaunchScreen: {}
